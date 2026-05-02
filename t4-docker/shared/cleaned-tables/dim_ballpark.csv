@@ -1,0 +1,31 @@
+park_id,park_name,longitude,latitude,location_id
+ATL03,Truist Park,-84.4681,33.89127,GA_Atlanta
+PHO01,Chase Field,-112.066793,33.44542,AZ_Phoenix
+BAL12,Oriole Park at Camden Yards,-76.621572,39.283944,MD_Baltimore
+BOS07,Fenway Park,-71.097337,42.346561,MA_Boston
+CHI11,Wrigley Field,-87.655397,41.948314,IL_Chicago
+CIN09,Great American Ballpark,-84.506483,39.097213,OH_Cincinnati
+CLE08,Progressive Field,-81.685326,41.496005,OH_Cleveland
+DEN02,Coors Field,-104.99413,39.756175,CO_Denver
+CHI12,Guarantee Rate Park,-87.633703,41.829892,IL_Chicago
+DET05,Comerica Park,-83.048627,42.339063,MI_Detroit
+HOU03,Minute Maid Park,-95.355429,29.757041,TX_Houston
+KAN06,Kauffman Stadium,-94.480149,39.051604,MO_Kansas City
+ANA01,Angel Stadium of Anaheim,-117.882685,33.80029,CA_Anaheim
+LOS03,Dodger Stadium,-118.239951,34.073878,CA_Los Angeles
+MIA02,loanDepot Park,-80.219541,25.778165,FL_Miami
+MIL06,American Family Field,-87.970966,43.028232,WI_Milwaukee
+MIN04,Target Field,-93.278026,44.981749,MN_Minneapolis
+NYC20,Citi Field,-73.84584,40.757134,NY_New York
+NYC21,New Yankee Stadium,-73.926413,40.829586,NY_New York
+OAK01,Oakland-Alameda County Coliseum,-122.200451,37.751619,CA_Oakland
+PHI13,Citizens Bank Park,-75.166485,39.906109,PA_Philadelphia
+PIT08,PNC Park,-80.005683,40.446835,PA_Pittsburgh
+SAN02,Petco Park,-117.157056,32.70753,CA_San Diego
+SEA03,T-Mobile Park,-122.332283,47.591443,WA_Seattle
+SFO03,Oracle Park,-122.389221,37.778324,CA_San Francisco
+STL10,Busch Stadium III,-90.192841,38.622622,MO_St. Louis
+STP01,Tropicana Field,-82.653431,27.768254,FL_St. Petersburg
+ARL03,Globe Life Field,-97.084167,32.747361,TX_Arlington
+TOR02,Rogers Centre,-79.389054,43.641256,ONT_Toronto
+WAS11,Nationals Park,-77.007435,38.872987,DC_Washington
