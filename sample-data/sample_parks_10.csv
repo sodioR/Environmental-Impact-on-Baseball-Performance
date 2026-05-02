@@ -1,0 +1,11 @@
+PARKID,NAME,CITY,STATE,START,END,LEAGUE,NOTES,AKA,Exact,Latitude,Longitude,Altitude
+WAS08,American League Park II,Washington,DC,19040414.0,19101006.0,AL,,National Park,Y,38.917576,-77.020191,100
+STL01,Red Stocking Base-Ball Park,St. Louis,MO,18750504.0,18750704.0,,SL1,Compton Avenue Base Ball Park,Y,38.629315,-90.23415,462
+PRO01,Adelaide Avenue Grounds,Providence,RI,18750612.0,18750622.0,,NH1: 6/12/1875; BS1: 6/22/1875,Providence Base Ball Grounds; Adelaide Park,Y,41.796629,-71.416372,61
+OAK01,Oakland-Alameda County Coliseum,Oakland,CA,19680417.0,,AL,,Network Associates Coliseum; McAfee Coliseum; UMAX Coliseum; Overstock.com Coliseum; RingCentral Coliseum; Oakland Coliseum,Y,37.751619,-122.200451,0
+COL01,Recreation Park I,Columbus,OH,18830501.0,18840922.0,AA,,,Y,39.957374,-82.980276,788
+MIN02,Metropolitan Stadium,Bloomington,MN,19610421.0,19810930.0,AL,,,Y,44.854783,-93.242921,821
+PHI05,Keystone Park,Philadelphia,PA,18840417.0,18840807.0,UA,,,Y,39.927663,-75.169641,26
+WOR02,Agricultural County Fair Grounds II,Worcester,MA,18870817.0,18870817.0,NL,1 BSN game,Worcester Driving Park,Y,42.268844,-71.814226,496
+BAL01,Madison Avenue Grounds,Baltimore,MD,18710708.0,18710708.0,,WS3,Pastime Base Ball Grounds,Y,39.309376,-76.632022,167
+LAS01,Cashman Field,Las Vegas,NV,19960401.0,19960407.0,AL,OAK: 6 games,,Y,36.179914,-115.129708,1907
