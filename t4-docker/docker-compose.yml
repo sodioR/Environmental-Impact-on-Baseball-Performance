@@ -1,0 +1,50 @@
+version: '3'
+services:
+  postgres:
+    image: postgres:16.3
+    environment:
+      POSTGRES_USER: t4
+      POSTGRES_PASSWORD: secret
+      POSTGRES_DB: t4db
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./shared:/home/t4
+
+  airflow-jupyter:
+    build: .
+    ports:
+      - "8888:8888"
+      - "8080:8080"
+    volumes:
+      - ./shared:/home/t4
+    depends_on:
+      - postgres
+    environment:
+      - PGPASSWORD=secret
+      - AIRFLOW_HOME=/home/t4/airflow
+      - AIRFLOW__CORE__DAGS_FOLDER=/home/t4/airflow/dags
+    command: >
+      bash -c "
+      mkdir -p /home/jhu/airflow/dags &&
+      airflow db init &&
+      airflow users create -r Admin -u admin -p admin -e admin@example.com -f Admin -l User &&
+
+      airflow webserver --port 8080 &
+      airflow scheduler &
+      sleep 10 &&
+      airflow dags unpause dag_run_pipeline &&
+      airflow dags trigger dag_run_pipeline &&
+
+      service cron start &&
+      jupyter lab --ip=0.0.0.0 --no-browser --allow-root &&
+      chmod 0600 /home/jhu/.local/share/jupyter/runtime/jupyter_cookie_secret"
+
+  fastapi:
+    build: ./api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./shared:/home/t4
+    depends_on:
+      - postgres

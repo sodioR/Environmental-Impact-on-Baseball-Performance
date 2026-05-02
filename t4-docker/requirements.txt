@@ -1,0 +1,12 @@
+pandas
+us
+cryptography
+pymongo
+duckdb
+polars
+psycopg2-binary
+pybaseball
+requests
+openmeteo-requests
+requests_cache
+retry_requests
