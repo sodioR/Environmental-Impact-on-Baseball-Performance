@@ -1,6 +1,6 @@
 # Main Question
 
-***How does environmental context explain performance variability beyond player skill metrics?***
+***How does environmental context explain performance variability beyond player skill metrics?*** <br>
 **Authors:** Jacob Ko, Sadia Rahman, Erin Wright-Vazquez
 
 ## General Project Concept
